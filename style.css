@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+}
+body
+{
+    background: url(bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #eeeeee;
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+}
+h4
+{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+}
+input
+{
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea
+{
+    background: transparent;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline:none;
+    color: #fff;
+}
+#submit
+{
+    border: none;
+    background-color: #ff4500;
+    color: white;
+    width: 440px;
+    margin-top: 10px;
+    border-radius: 50px;
+    transition: 1s;
+    cursor: pointer;
+}
+#submit:hover
+{
+    transition: 1s;
+    background-color: #333333;
+}
+textarea input
+{
+
+    border: 1px solid white;
+    outline: 1px solid white;
+    color: #fff;
+}
+.st
+{
+    border-radius: 50%;
+}
+.container input
+{
+    background: transparent;
+    background-color: transparent;
+}
+input::placeholder
+{
+    color: #FFF;
+}
+textarea ::placeholder
+{
+    color: #fff;
+}
